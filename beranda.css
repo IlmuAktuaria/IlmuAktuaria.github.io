@@ -76,7 +76,7 @@ body {
 /*pengaturan gambar yang di halaman depan*/
 .gambardepan{
 	float				: bottom;
-	height				: 109%;
+	height				: 100%;
 	width				: 100%;
 	margin-right		: 5px;
 	margin-top			: 0px;
