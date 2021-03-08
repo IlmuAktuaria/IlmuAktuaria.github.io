@@ -62,35 +62,31 @@ body {
 	padding				: 5px;
 	width				: 99%;
 	height				: auto;
-	background-color	: #ccc;
+	background-image	: url(https://cdn.pixabay.com/photo/2015/06/04/07/07/pink-797181_960_720.jpg);
 	position			: relative;
 	margin-top			: 5px;
 }
 /*pengaturan postingan*/
-.isipostingan{
-	background-color	: #c18452;
-	width				: 98%;
-	height				: 400px;
-	margin-bottom		: 5px;
-	padding				: 5px;
-}
-/*pengaturan gambar yang di halaman depan*/
-.gambardepan{
+.profil{
+	width				: 200px;
+	height				: 250px;
+	display				: block;
 	float				: right;
-	height				: 160px;
-	width				: 170px;
-	margin-right		: 5px;
-	margin-top			: 3px;
-	padding				: 1px;
-	border				: 0px solid #dddddd;
+	padding-right		: 5px;
 }
-/*pengaturan heading2 "Judul" */
-.isiposting h2 {
-	font-size			: 20px;
+h2{
+	text-align			: center;
+	color				: maroon;
+	font-size			: 40px;
 	font-weight			: bold;
-	color				: #ff0000;
-	margin-top			: 4px;
-	margin-bottom		: 3px;
+	font-family			: Agency FB;
+}
+tr td{
+	text-align			: left;
+	font-family			: Agency FB;
+	font-size			: 30px;
+	margin-bottom		: 20px;
+	
 }
 
 
@@ -106,3 +102,36 @@ body {
 	position			: relative;
 	clear				: both;
 }
+
+
+#kontak{
+	padding: 5px;
+	width: 99%;
+	height: auto;
+	position: relative;
+	margin: auto;
+	font-size: 20px;
+}
+.kontak{
+	width: 100%;
+	height: auto;
+	margin-bottom: 5px;
+}
+h2{
+	background-color: maroon;
+	height: 40px;
+	color: white;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 10px;
+}
+.tabelkontak{
+	color: marroon;
+	padding-left: 20px;
+}
+.kolom1 {
+	width: 20%x;
+}
+.kolom2 {
+	width: 80%;
+}	
