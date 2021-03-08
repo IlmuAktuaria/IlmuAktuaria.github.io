@@ -1,0 +1,60 @@
+*{
+	margin: 1;
+	padding: 1;
+	outline: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	height: 100px;
+	background-image: url(https://s0.bukalapak.com/bukalapak-kontenz-production/content_attachments/58240/w-744/sub_bahasa_pemrograman_5_.jpg);
+	text-align: center;
+	color: white;
+}
+
+.container{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 20px 35px;
+	width: 300px;
+	height: 230px;
+	background-color: #000080;
+	box-shadow: 0 0 10px rgba(255,255,255,.3);
+}
+
+.container h1{
+	text-align: center;
+	color: white;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	border-bottom: 4px;
+}
+
+.container firm input{
+	width: calc(100% - 20px);
+	padding: 8px 10px;
+	margin-bottom: 18px;
+	border: none;
+	border-bottom: 2px;
+	font-size: 15px;
+}
+
+.container form button{
+	width: 59%;
+	padding: 5px 0;
+	border: none;
+	background-color: #2979ff;
+	font-size: 18px;
+	color: #fafafa;
+	margin-top: 15px;
+}
+
+.container form button a{
+	color: white;
+	display: block;
+	text-align: center;
+	padding: 3px;
+	text-decoration: none;
+}

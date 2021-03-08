@@ -1,0 +1,100 @@
+/* pengaturan body*/
+body {
+	background-color	: grey;
+	text-align			: center;
+	font-family			: Verdana, Tahoma, Helvetica;
+	font-size			: 12px;
+}
+
+
+
+/* pengaturan layout utama */
+#layout {
+	background			: #fff;
+	width				: 980px;
+	margin				: auto;
+	text-align			: left;
+	padding				: 2px;
+}
+#header{
+	width				: 100%;
+	height				: 130px;
+	background-color	: #02a2dB;
+	position			: relative;
+}
+.header {
+	width				: 100%;
+	height				: 130px;
+}
+
+
+/*pengaturan menu */
+#menu{
+	width				: 100%;
+	height				: 40px;
+	background-color	: maroon;
+
+}
+/*pengaturan menu*/
+#menu ul {
+	list-style-type		: none;
+	margin				: 0;
+	padding				: 0;
+	overflow			: hidden;
+	background-color	: maroon;
+}
+
+#menu ul li {
+	float				: left;
+}
+
+#menu ul li a {
+	display				: block;
+	color				: white;
+	text-align			: left;
+	padding				: 14px;
+	text-decoration		: none;
+}
+#menu ul li a:hover {
+	color				: white;
+	background			: #3c4042;
+}
+
+
+/*pengaturan runningtext*/
+#runningtext{
+	width				: 100%;
+	height				: 25px;
+	padding-top			: 7px;
+	margin				: 5px 0 5px 0;
+	background-color	: black;
+	color				: white;
+	position			: relative;
+}
+
+
+/*pengaturan gambar yang di halaman depan*/
+.gambardepan{
+	float				: bottom;
+	height				: 109%;
+	width				: 100%;
+	margin-right		: 5px;
+	margin-top			: 0px;
+	padding				: 0px;
+	border				: 0px solid #dddddd;
+	background-image	: url(https://s0.bukalapak.com/bukalapak-kontenz-production/content_attachments/58240/w-744/sub_bahasa_pemrograman_5_.jpg);
+}
+
+
+#footer{
+	width				: 100%;
+	height				: 50px;
+	margin-top			: 5px;
+	padding-top			: 30;
+	background-color	: #49494e;
+	color				: white;
+	font-size			: 12pt;
+	text-align			: center;
+	position			: relative;
+	clear				: both;
+}
